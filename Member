@@ -1,0 +1,5 @@
+# Connect to Exchange Online
+Connect-ExchangeOnline -UserPrincipalName admin@yourdomain.com
+
+# Add a user to the Office 365 group as a member
+Add-UnifiedGroupLinks -Identity "GroupDisplayName" -LinkType Member -Links "user@example.com"
